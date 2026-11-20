@@ -2,14 +2,14 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-The web SDK lets a browser app fetch the signed-in user's profile with `account.getMe()`. The Rust library sends the authenticated request to `GET /v1/me`. Rust Inside builds the library for WebAssembly and publishes the SDK as the `sample-rust-core-web` npm package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/main/src/api.rs)
+The web SDK lets a browser app fetch the signed-in user's profile with `account.getMe()`. The Rust library sends the authenticated request to `GET /v1/me`. Rust Inside builds the library for WebAssembly and publishes the SDK as the `sample-rust-core-web` npm package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 
 ## Install with npm
 
-Run this command from your web project. npm installs the package from the release archive. [Release v0.1.0](https://github.com/Rust-Inside/sample-web-sdk/releases/tag/v0.1.0)
+Run this command from your web project. npm installs the package from the release archive. [Release v0.2.0](https://github.com/Rust-Inside/sample-web-sdk/releases/tag/v0.2.0)
 
 ```sh
-npm install https://github.com/Rust-Inside/sample-web-sdk/releases/download/v0.1.0/sample-rust-core-web-0.1.0.tgz
+npm install https://github.com/Rust-Inside/sample-web-sdk/releases/download/v0.2.0/sample-rust-core-web-0.2.0.tgz
 ```
 
 The browser must support ES modules and WebAssembly. Make sure your bundler includes the package's `index_bg.wasm` file in the deployed app.
