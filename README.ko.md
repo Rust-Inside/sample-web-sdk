@@ -1,6 +1,6 @@
 # Sample Rust Core · 웹 SDK
 
-[English](README.md) | [한국어](README.ko.md)
+[English](README.md)
 
 웹 앱에서 SDK의 `account.getMe()`를 호출하면 로그인한 사용자의 프로필을 받습니다. 인증 헤더를 붙여 `GET /v1/me`를 요청하는 코드는 Rust 라이브러리에 있습니다. Rust Inside는 이 라이브러리를 WebAssembly로 빌드하고 웹 SDK를 `sample-rust-core-web` npm 패키지로 배포합니다. [Rust 구현](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 

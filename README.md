@@ -1,6 +1,6 @@
 # Sample Rust Core · Web SDK
 
-[English](README.md) | [한국어](README.ko.md)
+[한국어](README.ko.md)
 
 The web SDK lets a browser app fetch the signed-in user's profile with `account.getMe()`. The Rust library sends the authenticated request to `GET /v1/me`. Rust Inside builds the library for WebAssembly and publishes the SDK as the `sample-rust-core-web` npm package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 
